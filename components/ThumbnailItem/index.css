@@ -1,0 +1,14 @@
+/* Write your code here. */
+.thumb-url {
+  opacity: 0.5;
+  margin: 10px;
+  cursor: pointer;
+  outline: none;
+  border-width: 0px;
+}
+@media (max-width: 767px) {
+  .thumb-url {
+    height: 40px;
+    width: 40px;
+  }
+}
