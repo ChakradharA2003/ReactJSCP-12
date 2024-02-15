@@ -1,0 +1,36 @@
+/* Write your code here. */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 30px;
+  height: 100vh;
+}
+.selected-image {
+  height: 450px;
+}
+.heading {
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #1e293b;
+}
+.para {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.thumbnails-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  list-style-type: none;
+}
+@media (max-width: 767px) {
+  .thumbnails-list {
+    flex-wrap: wrap;
+  }
+  .selected-image {
+    height: 200px;
+    width: 100%;
+  }
+}
